@@ -1,0 +1,316 @@
+/* line 1, ../scss/_base.scss */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+/* line 6, ../scss/_base.scss */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 9, ../scss/_base.scss */
+.container {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+/* line 13, ../scss/_base.scss */
+.col {
+  min-height: 40px;
+  float: left;
+  padding: 12px;
+  box-sizing: border-box; }
+
+/* line 19, ../scss/_base.scss */
+.row::after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+/* line 24, ../scss/_base.scss */
+.col12 {
+  width: 100%; }
+
+/* line 27, ../scss/_base.scss */
+.col11 {
+  width: 91.66%; }
+
+/* line 30, ../scss/_base.scss */
+.col10 {
+  width: 83.33%; }
+
+/* line 33, ../scss/_base.scss */
+.col9 {
+  width: 75%; }
+
+/* line 36, ../scss/_base.scss */
+.col8 {
+  width: 66.67%; }
+
+/* line 39, ../scss/_base.scss */
+.col7 {
+  width: 58.33%; }
+
+/* line 42, ../scss/_base.scss */
+.col6 {
+  width: 50%; }
+
+/* line 45, ../scss/_base.scss */
+.col5 {
+  width: 41.66%; }
+
+/* line 48, ../scss/_base.scss */
+.col4 {
+  width: 33.33%; }
+
+/* line 51, ../scss/_base.scss */
+.col3 {
+  width: 25%; }
+
+/* line 54, ../scss/_base.scss */
+.col2 {
+  width: 16.67%; }
+
+/* line 57, ../scss/_base.scss */
+.col1 {
+  width: 8.33%; }
+
+/* line 61, ../scss/_base.scss */
+section {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh; }
+
+/* line 1, ../scss/_skill.scss */
+.skillsTitle {
+  transform: rotate(-90deg);
+  font-size: 70px;
+  opacity: 0.2;
+  text-shadow: red 3px 2px;
+  margin: -80px; }
+
+/* line 8, ../scss/_skill.scss */
+.skillSet {
+  margin-top: 70px; }
+  /* line 10, ../scss/_skill.scss */
+  .skillSet p {
+    text-align: right;
+    margin: 0 10px; }
+
+/* line 15, ../scss/_skill.scss */
+.graph {
+  background: #ccc;
+  height: 30px;
+  border-radius: 40px;
+  margin-bottom: 5px; }
+
+/* line 21, ../scss/_skill.scss */
+.graph span {
+  display: block;
+  height: 30px;
+  line-height: 40px;
+  text-align: right;
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: white;
+  background: #ff8300;
+  padding: 0 10px; }
+
+/* line 32, ../scss/_skill.scss */
+.line70 span {
+  animation: line70 3s 1; }
+
+/* line 36, ../scss/_skill.scss */
+.line75 span {
+  animation: line75 3s 1; }
+
+/* line 40, ../scss/_skill.scss */
+.line80 span {
+  animation: line80 3s 1; }
+
+/* line 44, ../scss/_skill.scss */
+.line85 span {
+  animation: line85 3s 1; }
+
+@keyframes line70 {
+  0% {
+    width: 0;
+    color: rgba(255, 255, 255, 0); }
+  40% {
+    color: white; }
+  100% {
+    width: 70%;
+    color: white; } }
+@keyframes line75 {
+  0% {
+    width: 0;
+    color: rgba(255, 255, 255, 0); }
+  40% {
+    color: white; }
+  100% {
+    width: 75%;
+    color: white; } }
+@keyframes line80 {
+  0% {
+    width: 0;
+    color: rgba(255, 255, 255, 0); }
+  40% {
+    color: white; }
+  100% {
+    width: 80%;
+    color: white; } }
+@keyframes line85 {
+  0% {
+    width: 0;
+    color: rgba(255, 255, 255, 0); }
+  40% {
+    color: white; }
+  100% {
+    width: 85%;
+    color: white; } }
+/* line 6, ../scss/style.scss */
+header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  flex-wrap: wrap;
+  background-color: white; }
+  /* line 15, ../scss/style.scss */
+  header .logo, header .mLogo {
+    max-height: 50px;
+    margin: 10px; }
+  @media (max-width: 576px) {
+    /* line 20, ../scss/style.scss */
+    header .logo {
+      display: none; } }
+  /* line 23, ../scss/style.scss */
+  header .nav {
+    align-self: center; }
+    /* line 25, ../scss/style.scss */
+    header .nav .active {
+      display: flex; }
+    /* line 28, ../scss/style.scss */
+    header .nav ul {
+      list-style: none;
+      display: flex; }
+      @media (max-width: 576px) {
+        /* line 28, ../scss/style.scss */
+        header .nav ul {
+          flex-direction: column;
+          height: 100vh;
+          width: 200px;
+          background-color: black;
+          display: none; } }
+    /* line 39, ../scss/style.scss */
+    header .nav li {
+      float: left;
+      padding: 20px;
+      text-align: center; }
+      @media (max-width: 576px) {
+        /* line 39, ../scss/style.scss */
+        header .nav li {
+          background-color: rgba(0, 0, 0, 0); } }
+      /* line 46, ../scss/style.scss */
+      header .nav li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        text-shadow: rgba(0, 0, 0, 0.1) 2px 2px; }
+        @media (max-width: 576px) {
+          /* line 46, ../scss/style.scss */
+          header .nav li a {
+            color: white; } }
+  /* line 57, ../scss/style.scss */
+  header .toggle {
+    display: none; }
+    @media (max-width: 576px) {
+      /* line 57, ../scss/style.scss */
+      header .toggle {
+        padding: 10px 20px;
+        text-align: right;
+        color: white;
+        font-size: 30px;
+        z-index: 1;
+        display: block; } }
+  @media (max-width: 576px) {
+    /* line 6, ../scss/style.scss */
+    header {
+      width: 100vw;
+      background: black;
+      box-sizing: border-box;
+      z-index: 2; } }
+
+/* line 77, ../scss/style.scss */
+#home {
+  background-image: url(../img/uxbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; }
+  /* line 84, ../scss/style.scss */
+  #home .sns {
+    bottom: 5%;
+    left: 3%;
+    font-size: 18px;
+    position: absolute;
+    z-index: 0; }
+    /* line 90, ../scss/style.scss */
+    #home .sns li {
+      list-style: none;
+      display: inline;
+      margin-left: 10px; }
+      /* line 94, ../scss/style.scss */
+      #home .sns li a {
+        text-decoration: none;
+        color: black; }
+
+/* line 102, ../scss/style.scss */
+#about, #skills, #works, #contact {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 700px; }
+
+/* line 112, ../scss/style.scss */
+.text-part {
+  width: 65%;
+  height: 80%; }
+  /* line 115, ../scss/style.scss */
+  .text-part h1 {
+    font-size: 50px; }
+  /* line 118, ../scss/style.scss */
+  .text-part p {
+    font-size: 24px;
+    line-height: 50px; }
+
+/* line 123, ../scss/style.scss */
+.intro {
+  text-align: center;
+  position: relative;
+  top: 30%; }
+  /* line 128, ../scss/style.scss */
+  .intro p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px; }
+  /* line 133, ../scss/style.scss */
+  .intro span {
+    font-weight: bold;
+    font-size: 40px; }
+
+/* line 138, ../scss/style.scss */
+.skillSet {
+  width: 70%; }
+
+/*# sourceMappingURL=style.css.map */
