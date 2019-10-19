@@ -171,66 +171,194 @@ section {
   100% {
     width: 85%;
     color: white; } }
-/* line 6, ../scss/style.scss */
+/* line 1, ../scss/_works.scss */
+.cardContainer {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 50px auto; }
+  /* line 6, ../scss/_works.scss */
+  .cardContainer .box {
+    position: relative;
+    width: calc(300px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden; }
+    /* line 16, ../scss/_works.scss */
+    .cardContainer .box .content {
+      position: absolute;
+      height: calc(100% - 100px);
+      top: 100px;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: 0.5s;
+      opacity: 0; }
+      /* line 25, ../scss/_works.scss */
+      .cardContainer .box .content a {
+        text-decoration: none; }
+      /* line 28, ../scss/_works.scss */
+      .cardContainer .box .content h3 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 24px; }
+      /* line 34, ../scss/_works.scss */
+      .cardContainer .box .content p {
+        margin: 0;
+        padding: 0;
+        color: #fff; }
+    /* line 40, ../scss/_works.scss */
+    .cardContainer .box .icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: 0.5s;
+      z-index: 1; }
+      /* line 48, ../scss/_works.scss */
+      .cardContainer .box .icon i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 80px;
+        transition: 0.5s;
+        color: #fff;
+        visibility: hidden; }
+
+/* line 61, ../scss/_works.scss */
+.cardContainer .box:hover .icon {
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+  /* line 67, ../scss/_works.scss */
+  .cardContainer .box:hover .icon i {
+    font-size: 40px;
+    visibility: visible; }
+
+/* line 72, ../scss/_works.scss */
+.cardContainer .box:hover .content {
+  top: 100px;
+  opacity: 1; }
+
+/* line 76, ../scss/_works.scss */
+.cardContainer .box:nth-child(2n+1) {
+  background: #c37466; }
+
+/* line 79, ../scss/_works.scss */
+.cardContainer .box:nth-child(2n+2) {
+  background: #a8b6b1; }
+
+/* line 82, ../scss/_works.scss */
+.cardContainer .box:nth-child(1) .icon {
+  background: #e37363;
+  background-image: url(../img/tandoori.jpg);
+  background-position: top;
+  background-size: cover; }
+
+/* line 87, ../scss/_works.scss */
+.cardContainer .box:nth-child(2) .icon {
+  background: #a8b6b1;
+  background-image: url(../img/keepmi.jpg);
+  background-position: top;
+  background-size: cover; }
+
+/* line 92, ../scss/_works.scss */
+.cardContainer .box:nth-child(3) .icon {
+  background: #c37466;
+  background-image: url(../img/caucus.jpg);
+  background-position: top;
+  background-size: cover; }
+
+/* line 97, ../scss/_works.scss */
+.cardContainer .box:nth-child(4) .icon {
+  background: #a8b6b1;
+  background-image: url(../img/mtruapehu.png);
+  background-position: top;
+  background-size: cover; }
+
+/* line 102, ../scss/_works.scss */
+.cardContainer .box:nth-child(5) .icon {
+  background: #c37466;
+  background-image: url(../img/beat.gif);
+  background-position: top;
+  background-size: cover; }
+
+/* line 107, ../scss/_works.scss */
+.cardContainer .box:nth-child(6) .icon {
+  background: #a8b6b1;
+  background-image: url(../img/supermarket.png);
+  background-position: top;
+  background-size: cover; }
+
+/* line 7, ../scss/style.scss */
 header {
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 70px;
   flex-wrap: wrap;
   background-color: white; }
-  /* line 15, ../scss/style.scss */
+  /* line 16, ../scss/style.scss */
   header .logo, header .mLogo {
     max-height: 50px;
     margin: 10px; }
   @media (max-width: 576px) {
-    /* line 20, ../scss/style.scss */
+    /* line 21, ../scss/style.scss */
     header .logo {
       display: none; } }
-  /* line 23, ../scss/style.scss */
+  /* line 24, ../scss/style.scss */
   header .nav {
     align-self: center; }
-    /* line 25, ../scss/style.scss */
+    /* line 26, ../scss/style.scss */
     header .nav .active {
       display: flex; }
-    /* line 28, ../scss/style.scss */
+    /* line 29, ../scss/style.scss */
     header .nav ul {
       list-style: none;
       display: flex; }
       @media (max-width: 576px) {
-        /* line 28, ../scss/style.scss */
+        /* line 29, ../scss/style.scss */
         header .nav ul {
           flex-direction: column;
           height: 100vh;
           width: 200px;
           background-color: black;
           display: none; } }
-    /* line 39, ../scss/style.scss */
+    /* line 40, ../scss/style.scss */
     header .nav li {
       float: left;
       padding: 20px;
       text-align: center; }
       @media (max-width: 576px) {
-        /* line 39, ../scss/style.scss */
+        /* line 40, ../scss/style.scss */
         header .nav li {
           background-color: rgba(0, 0, 0, 0); } }
-      /* line 46, ../scss/style.scss */
+      /* line 47, ../scss/style.scss */
       header .nav li a {
         text-decoration: none;
-        color: black;
         font-weight: 600;
-        text-shadow: rgba(0, 0, 0, 0.1) 2px 2px; }
+        text-shadow: rgba(0, 0, 0, 0.1) 2px 2px;
+        color: black; }
         @media (max-width: 576px) {
-          /* line 46, ../scss/style.scss */
+          /* line 47, ../scss/style.scss */
           header .nav li a {
             color: white; } }
-  /* line 57, ../scss/style.scss */
+  /* line 58, ../scss/style.scss */
   header .toggle {
     display: none; }
     @media (max-width: 576px) {
-      /* line 57, ../scss/style.scss */
+      /* line 58, ../scss/style.scss */
       header .toggle {
         padding: 10px 20px;
         text-align: right;
@@ -239,14 +367,14 @@ header {
         z-index: 1;
         display: block; } }
   @media (max-width: 576px) {
-    /* line 6, ../scss/style.scss */
+    /* line 7, ../scss/style.scss */
     header {
       width: 100vw;
       background: black;
       box-sizing: border-box;
       z-index: 2; } }
 
-/* line 77, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 #home {
   background-image: url(../img/uxbg.jpg);
   background-position: center;
@@ -254,24 +382,24 @@ header {
   background-size: cover;
   width: 100%;
   height: 100vh; }
-  /* line 84, ../scss/style.scss */
+  /* line 85, ../scss/style.scss */
   #home .sns {
     bottom: 5%;
     left: 3%;
     font-size: 18px;
     position: absolute;
     z-index: 0; }
-    /* line 90, ../scss/style.scss */
+    /* line 91, ../scss/style.scss */
     #home .sns li {
       list-style: none;
       display: inline;
       margin-left: 10px; }
-      /* line 94, ../scss/style.scss */
+      /* line 95, ../scss/style.scss */
       #home .sns li a {
         text-decoration: none;
         color: black; }
 
-/* line 102, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
   display: flex;
@@ -282,34 +410,34 @@ header {
   width: 100%;
   height: 700px; }
 
-/* line 112, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .text-part {
   width: 65%;
   height: 80%; }
-  /* line 115, ../scss/style.scss */
+  /* line 116, ../scss/style.scss */
   .text-part h1 {
     font-size: 50px; }
-  /* line 118, ../scss/style.scss */
+  /* line 119, ../scss/style.scss */
   .text-part p {
     font-size: 24px;
     line-height: 50px; }
 
-/* line 123, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 128, ../scss/style.scss */
+  /* line 129, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 133, ../scss/style.scss */
+  /* line 134, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
 
-/* line 138, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 

@@ -2,10 +2,11 @@
 @import 'variables';
 @import 'mixin';
 @import 'skill';
+@import 'works';
 
 header{
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -45,9 +46,9 @@ header{
       }
       a{
         text-decoration: none;
-        color: black;
         font-weight: 600;
         text-shadow: rgba(0,0,0,0.1) 2px 2px;
+        color: black;
         @include respond-to(sm) {
           color: white;
         }

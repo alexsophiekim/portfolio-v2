@@ -25,7 +25,7 @@ Hi, I am studying for UX design and Web development at YOOBEE design collage in 
 * Node.js
 * APIs
 * NPM
-* Ajax, Json
+* Ajax / Json
 * PHP
 * React.js
 * CMS / Wordpress
