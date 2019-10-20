@@ -1,0 +1,36 @@
+.contactIntro{
+  padding-bottom: 20px;
+  border-bottom: solid 1px #cecece;
+  width: 800px;
+  p{
+    padding-top: 15%;
+    text-shadow:#5D779C 4px 2px;
+    color:silver;
+    font-size: 80px;
+    font-weight: 100;
+  }
+}
+.contactBox{
+  box-sizing: border-box;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  .column{
+    width: calc(300px - 30px);
+    height: calc(200px - 30px);
+    i{
+      font-size: 25px;
+    }
+    h5{
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 10px 0;
+    }
+    a{
+      text-decoration:none;
+      color: black;
+      letter-spacing: 1px;
+    }
+  }
+}

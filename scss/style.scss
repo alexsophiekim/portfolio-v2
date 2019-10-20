@@ -3,6 +3,7 @@
 @import 'mixin';
 @import 'skill';
 @import 'works';
+@import 'contact';
 
 header{
   position: fixed;
@@ -138,4 +139,14 @@ header{
 }
 .skillSet{
   width: 70%;
+}
+
+footer{
+  border-top: solid 1px black;
+  background-color: black;
+  p{
+    color: white;
+    padding: 3%;
+    text-align: center;
+  }
 }
