@@ -8,6 +8,9 @@
     color:silver;
     font-size: 80px;
     font-weight: 100;
+    @include respond-to(sm){
+      font-size: 50px;
+    }
   }
 }
 .contactBox{
@@ -32,5 +35,9 @@
       color: black;
       letter-spacing: 1px;
     }
+  }
+  @include respond-to(sm){
+    width: auto;
+    flex-direction: column;
   }
 }

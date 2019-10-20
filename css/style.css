@@ -318,31 +318,40 @@ section {
     color: silver;
     font-size: 80px;
     font-weight: 100; }
+    @media (max-width: 576px) {
+      /* line 5, ../scss/_contact.scss */
+      .contactIntro p {
+        font-size: 50px; } }
 
-/* line 13, ../scss/_contact.scss */
+/* line 16, ../scss/_contact.scss */
 .contactBox {
   box-sizing: border-box;
   width: 800px;
   height: 200px;
   display: flex;
   flex-direction: row; }
-  /* line 19, ../scss/_contact.scss */
+  /* line 22, ../scss/_contact.scss */
   .contactBox .column {
     width: calc(300px - 30px);
     height: calc(200px - 30px); }
-    /* line 22, ../scss/_contact.scss */
+    /* line 25, ../scss/_contact.scss */
     .contactBox .column i {
       font-size: 25px; }
-    /* line 25, ../scss/_contact.scss */
+    /* line 28, ../scss/_contact.scss */
     .contactBox .column h5 {
       letter-spacing: 2px;
       text-transform: uppercase;
       padding: 10px 0; }
-    /* line 30, ../scss/_contact.scss */
+    /* line 33, ../scss/_contact.scss */
     .contactBox .column a {
       text-decoration: none;
       color: black;
       letter-spacing: 1px; }
+  @media (max-width: 576px) {
+    /* line 16, ../scss/_contact.scss */
+    .contactBox {
+      width: auto;
+      flex-direction: column; } }
 
 /* line 8, ../scss/style.scss */
 header {
