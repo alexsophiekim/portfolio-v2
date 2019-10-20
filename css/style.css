@@ -299,6 +299,13 @@ section {
   background-position: top;
   background-size: cover; }
 
+/* line 112, ../scss/_works.scss */
+.cardContainer .box:nth-child(7) .icon {
+  background: #a8b6b1;
+  background-image: url(../img/thread.jpg);
+  background-position: top;
+  background-size: cover; }
+
 /* line 1, ../scss/_contact.scss */
 .contactIntro {
   padding-bottom: 20px;
