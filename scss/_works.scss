@@ -3,6 +3,9 @@
   width: 1200px;
   height: 300px;
   margin: 50px auto;
+  @include respond-to(sm){
+    margin-left: 10%;
+  }
   .box{
     position: relative;
     width: calc(300px - 30px);

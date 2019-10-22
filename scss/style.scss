@@ -104,10 +104,11 @@ header{
     }
   }
 }
-
+#skills, #works, #contact{
+  display: flex;
+}
  #about, #skills, #works, #contact {
   position: relative;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
@@ -144,15 +145,37 @@ header{
 .skillSet{
   width: 70%;
 }
-.aboutText{
-    text-align: center;
-    white-space: pre-line;
-    animation: letter 2s 1;
-    max-width: 1200px;
+.aboutTitle{
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  align-self: auto;
+  @include respond-to(sm){
+    margin-top: 70px;
+  }
+}
+.aboutBox{
+  align-items: center;
+  padding-top:10%;
+   h1{
+      margin: auto;
+      white-space: pre-line;
+      animation: letter 2s 1;
+      max-width: 1000px;
+      line-height: 3rem;
+      font-weight: 100;
+      margin-top: 30%;
+      @include respond-to(sm){
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-top:1%;
+        padding: 0 3%;
+      }
+  }
 }
 @keyframes letter{
   0%{ letter-spacing: 2em;}
-  100%{ letter-spacing: 4px; }
+  100%{ letter-spacing: 5px; }
 }
 footer{
   border-top: solid 1px black;

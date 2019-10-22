@@ -177,7 +177,11 @@ section {
   width: 1200px;
   height: 300px;
   margin: 50px auto; }
-  /* line 6, ../scss/_works.scss */
+  @media (max-width: 576px) {
+    /* line 1, ../scss/_works.scss */
+    .cardContainer {
+      margin-left: 10%; } }
+  /* line 9, ../scss/_works.scss */
   .cardContainer .box {
     position: relative;
     width: calc(300px - 30px);
@@ -188,7 +192,7 @@ section {
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden; }
-    /* line 16, ../scss/_works.scss */
+    /* line 19, ../scss/_works.scss */
     .cardContainer .box .content {
       position: absolute;
       height: calc(100% - 100px);
@@ -198,21 +202,21 @@ section {
       box-sizing: border-box;
       transition: 0.5s;
       opacity: 0; }
-      /* line 25, ../scss/_works.scss */
+      /* line 28, ../scss/_works.scss */
       .cardContainer .box .content a {
         text-decoration: none; }
-      /* line 28, ../scss/_works.scss */
+      /* line 31, ../scss/_works.scss */
       .cardContainer .box .content h3 {
         margin: 0;
         padding: 0;
         color: #fff;
         font-size: 24px; }
-      /* line 34, ../scss/_works.scss */
+      /* line 37, ../scss/_works.scss */
       .cardContainer .box .content p {
         margin: 0;
         padding: 0;
         color: #fff; }
-    /* line 40, ../scss/_works.scss */
+    /* line 43, ../scss/_works.scss */
     .cardContainer .box .icon {
       position: absolute;
       top: 0;
@@ -221,7 +225,7 @@ section {
       height: 100%;
       transition: 0.5s;
       z-index: 1; }
-      /* line 48, ../scss/_works.scss */
+      /* line 51, ../scss/_works.scss */
       .cardContainer .box .icon i {
         position: absolute;
         top: 50%;
@@ -232,74 +236,74 @@ section {
         color: #fff;
         visibility: hidden; }
 
-/* line 61, ../scss/_works.scss */
+/* line 64, ../scss/_works.scss */
 .cardContainer .box:hover .icon {
   top: 20px;
   left: calc(50% - 40px);
   width: 80px;
   height: 80px;
   border-radius: 50%; }
-  /* line 67, ../scss/_works.scss */
+  /* line 70, ../scss/_works.scss */
   .cardContainer .box:hover .icon i {
     font-size: 40px;
     visibility: visible; }
 
-/* line 72, ../scss/_works.scss */
+/* line 75, ../scss/_works.scss */
 .cardContainer .box:hover .content {
   top: 100px;
   opacity: 1; }
 
-/* line 76, ../scss/_works.scss */
+/* line 79, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+1) {
   background: #c37466; }
 
-/* line 79, ../scss/_works.scss */
+/* line 82, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+2) {
   background: #a8b6b1; }
 
-/* line 82, ../scss/_works.scss */
+/* line 85, ../scss/_works.scss */
 .cardContainer .box:nth-child(1) .icon {
   background: #e37363;
   background-image: url(../img/tandoori.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 87, ../scss/_works.scss */
+/* line 90, ../scss/_works.scss */
 .cardContainer .box:nth-child(2) .icon {
   background: #a8b6b1;
   background-image: url(../img/keepmi.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 92, ../scss/_works.scss */
+/* line 95, ../scss/_works.scss */
 .cardContainer .box:nth-child(3) .icon {
   background: #c37466;
   background-image: url(../img/caucus.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 97, ../scss/_works.scss */
+/* line 100, ../scss/_works.scss */
 .cardContainer .box:nth-child(4) .icon {
   background: #a8b6b1;
   background-image: url(../img/mtruapehu.png);
   background-position: top;
   background-size: cover; }
 
-/* line 102, ../scss/_works.scss */
+/* line 105, ../scss/_works.scss */
 .cardContainer .box:nth-child(5) .icon {
   background: #c37466;
   background-image: url(../img/beat.gif);
   background-position: top;
   background-size: cover; }
 
-/* line 107, ../scss/_works.scss */
+/* line 110, ../scss/_works.scss */
 .cardContainer .box:nth-child(6) .icon {
   background: #a8b6b1;
   background-image: url(../img/supermarket.png);
   background-position: top;
   background-size: cover; }
 
-/* line 112, ../scss/_works.scss */
+/* line 115, ../scss/_works.scss */
 .cardContainer .box:nth-child(7) .icon {
   background: #a8b6b1;
   background-image: url(../img/thread.jpg);
@@ -311,7 +315,7 @@ section {
   padding-bottom: 20px;
   border-bottom: solid 1px #cecece;
   width: 800px; }
-  /* line 5, ../scss/_contact.scss */
+  /* line 6, ../scss/_contact.scss */
   .contactIntro p {
     padding-top: 15%;
     text-shadow: #5D779C 4px 2px;
@@ -319,36 +323,36 @@ section {
     font-size: 80px;
     font-weight: 100; }
     @media (max-width: 576px) {
-      /* line 5, ../scss/_contact.scss */
+      /* line 6, ../scss/_contact.scss */
       .contactIntro p {
         font-size: 50px; } }
 
-/* line 16, ../scss/_contact.scss */
+/* line 17, ../scss/_contact.scss */
 .contactBox {
   box-sizing: border-box;
   width: 800px;
   height: 200px;
   display: flex;
   flex-direction: row; }
-  /* line 22, ../scss/_contact.scss */
+  /* line 23, ../scss/_contact.scss */
   .contactBox .column {
     width: calc(300px - 30px);
     height: calc(200px - 30px); }
-    /* line 25, ../scss/_contact.scss */
+    /* line 26, ../scss/_contact.scss */
     .contactBox .column i {
       font-size: 25px; }
-    /* line 28, ../scss/_contact.scss */
+    /* line 29, ../scss/_contact.scss */
     .contactBox .column h5 {
       letter-spacing: 2px;
       text-transform: uppercase;
       padding: 10px 0; }
-    /* line 33, ../scss/_contact.scss */
+    /* line 34, ../scss/_contact.scss */
     .contactBox .column a {
       text-decoration: none;
       color: black;
       letter-spacing: 1px; }
   @media (max-width: 576px) {
-    /* line 16, ../scss/_contact.scss */
+    /* line 17, ../scss/_contact.scss */
     .contactBox {
       width: auto;
       flex-direction: column; } }
@@ -458,10 +462,13 @@ header {
         left: 0;
         transform: translate(50%, 50%); } }
 
-/* line 108, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
+#skills, #works, #contact {
+  display: flex; }
+
+/* line 110, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
@@ -469,54 +476,79 @@ header {
   width: 100%;
   height: 700px; }
 
-/* line 118, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 .text-part {
   width: 65%;
   height: 80%; }
-  /* line 121, ../scss/style.scss */
+  /* line 122, ../scss/style.scss */
   .text-part h1 {
     font-size: 50px; }
-  /* line 124, ../scss/style.scss */
+  /* line 125, ../scss/style.scss */
   .text-part p {
     font-size: 24px;
     line-height: 50px; }
 
-/* line 129, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 134, ../scss/style.scss */
+  /* line 135, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 139, ../scss/style.scss */
+  /* line 140, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
 
-/* line 144, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 147, ../scss/style.scss */
-.aboutText {
+/* line 148, ../scss/style.scss */
+.aboutTitle {
   text-align: center;
-  white-space: pre-line;
-  animation: letter 2s 1;
-  max-width: 1200px; }
+  font-size: 3rem;
+  letter-spacing: 2px;
+  align-self: auto; }
+  @media (max-width: 576px) {
+    /* line 148, ../scss/style.scss */
+    .aboutTitle {
+      margin-top: 70px; } }
+
+/* line 157, ../scss/style.scss */
+.aboutBox {
+  align-items: center;
+  padding-top: 10%; }
+  /* line 160, ../scss/style.scss */
+  .aboutBox h1 {
+    margin: auto;
+    white-space: pre-line;
+    animation: letter 2s 1;
+    max-width: 1000px;
+    line-height: 3rem;
+    font-weight: 100;
+    margin-top: 30%; }
+    @media (max-width: 576px) {
+      /* line 160, ../scss/style.scss */
+      .aboutBox h1 {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-top: 1%;
+        padding: 0 3%; } }
 
 @keyframes letter {
   0% {
     letter-spacing: 2em; }
   100% {
-    letter-spacing: 4px; } }
-/* line 157, ../scss/style.scss */
+    letter-spacing: 5px; } }
+/* line 180, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 160, ../scss/style.scss */
+  /* line 183, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;
