@@ -495,11 +495,23 @@ header {
 .skillSet {
   width: 70%; }
 
-/* line 144, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
+.aboutText {
+  text-align: center;
+  white-space: pre-line;
+  animation: letter 2s 1;
+  max-width: 1200px; }
+
+@keyframes letter {
+  0% {
+    letter-spacing: 2em; }
+  100% {
+    letter-spacing: 4px; } }
+/* line 153, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 147, ../scss/style.scss */
+  /* line 156, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;
