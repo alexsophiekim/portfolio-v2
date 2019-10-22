@@ -144,7 +144,16 @@ header{
 .skillSet{
   width: 70%;
 }
-
+.aboutText{
+    text-align: center;
+    white-space: pre-line;
+    animation: letter 2s 1;
+    max-width: 1200px;
+}
+@keyframes letter{
+  0%{ letter-spacing: 2em;}
+  100%{ letter-spacing: 4px; }
+}
 footer{
   border-top: solid 1px black;
   background-color: black;
