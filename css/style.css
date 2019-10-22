@@ -452,8 +452,13 @@ header {
       #home .sns li a {
         text-decoration: none;
         color: black; }
+    @media (max-width: 576px) {
+      /* line 86, ../scss/style.scss */
+      #home .sns {
+        left: 0;
+        transform: translate(50%, 50%); } }
 
-/* line 104, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
   display: flex;
@@ -464,42 +469,42 @@ header {
   width: 100%;
   height: 700px; }
 
-/* line 114, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .text-part {
   width: 65%;
   height: 80%; }
-  /* line 117, ../scss/style.scss */
+  /* line 121, ../scss/style.scss */
   .text-part h1 {
     font-size: 50px; }
-  /* line 120, ../scss/style.scss */
+  /* line 124, ../scss/style.scss */
   .text-part p {
     font-size: 24px;
     line-height: 50px; }
 
-/* line 125, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 130, ../scss/style.scss */
+  /* line 134, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 135, ../scss/style.scss */
+  /* line 139, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
 
-/* line 140, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 144, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 147, ../scss/style.scss */
+  /* line 151, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;
