@@ -518,27 +518,25 @@ header {
   @media (max-width: 576px) {
     /* line 148, ../scss/style.scss */
     .aboutTitle {
-      margin-top: 70px; } }
+      margin-top: 100px; } }
 
 /* line 158, ../scss/style.scss */
 .aboutBox {
   align-items: center;
-  padding-top: 10%; }
+  padding-top: 7%; }
   /* line 161, ../scss/style.scss */
   .aboutBox h1 {
-    margin: auto;
-    white-space: pre-line;
+    margin: 5% auto;
     animation: letter 2s 1;
     max-width: 1000px;
     line-height: 3rem;
-    font-weight: 100;
-    margin-top: 7%; }
+    font-weight: 100; }
     @media (max-width: 576px) {
       /* line 161, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
-        margin-top: 1%;
+        margin-top: 15%;
         padding: 0 3%; } }
 
 @keyframes letter {
@@ -546,11 +544,11 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 181, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 184, ../scss/style.scss */
+  /* line 182, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;

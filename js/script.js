@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $('.ti-menu').click(function(){
+  $('.ti-menu').on('click', function(){
     $('ul').toggleClass('active');
-  })
-})
+    $('li').click(function(){
+      $('ul').removeClass('active');
+    })
+  });
+});

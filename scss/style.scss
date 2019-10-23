@@ -152,24 +152,22 @@ header{
   align-self: auto;
   margin-top: 10%;
   @include respond-to(sm){
-    margin-top: 70px;
+    margin-top: 100px;
   }
 }
 .aboutBox{
   align-items: center;
-  padding-top:10%;
+  padding-top:7%;
    h1{
-      margin: auto;
-      white-space: pre-line;
+      margin: 5% auto;
       animation: letter 2s 1;
       max-width: 1000px;
       line-height: 3rem;
       font-weight: 100;
-      margin-top: 7%;
       @include respond-to(sm){
         font-size: 1rem;
         line-height: 2rem;
-        margin-top:1%;
+        margin-top:15%;
         padding: 0 3%;
       }
   }
