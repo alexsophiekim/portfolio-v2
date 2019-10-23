@@ -40,5 +40,6 @@
   @include respond-to(sm){
     width: auto;
     flex-direction: column;
+    height: 250px;
   }
 }

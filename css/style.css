@@ -355,7 +355,8 @@ section {
     /* line 17, ../scss/_contact.scss */
     .contactBox {
       width: auto;
-      flex-direction: column; } }
+      flex-direction: column;
+      height: 250px; } }
 
 /* line 8, ../scss/style.scss */
 header {
@@ -512,17 +513,18 @@ header {
   text-align: center;
   font-size: 3rem;
   letter-spacing: 2px;
-  align-self: auto; }
+  align-self: auto;
+  margin-top: 10%; }
   @media (max-width: 576px) {
     /* line 148, ../scss/style.scss */
     .aboutTitle {
       margin-top: 70px; } }
 
-/* line 157, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 .aboutBox {
   align-items: center;
   padding-top: 10%; }
-  /* line 160, ../scss/style.scss */
+  /* line 161, ../scss/style.scss */
   .aboutBox h1 {
     margin: auto;
     white-space: pre-line;
@@ -530,9 +532,9 @@ header {
     max-width: 1000px;
     line-height: 3rem;
     font-weight: 100;
-    margin-top: 30%; }
+    margin-top: 7%; }
     @media (max-width: 576px) {
-      /* line 160, ../scss/style.scss */
+      /* line 161, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
@@ -544,11 +546,11 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 180, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 183, ../scss/style.scss */
+  /* line 184, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;

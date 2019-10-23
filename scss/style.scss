@@ -150,6 +150,7 @@ header{
   font-size: 3rem;
   letter-spacing: 2px;
   align-self: auto;
+  margin-top: 10%;
   @include respond-to(sm){
     margin-top: 70px;
   }
@@ -164,7 +165,7 @@ header{
       max-width: 1000px;
       line-height: 3rem;
       font-weight: 100;
-      margin-top: 30%;
+      margin-top: 7%;
       @include respond-to(sm){
         font-size: 1rem;
         line-height: 2rem;
