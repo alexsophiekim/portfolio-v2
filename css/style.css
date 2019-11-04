@@ -318,34 +318,35 @@ section {
     @media (max-width: 576px) {
       /* line 6, ../scss/_contact.scss */
       .contactIntro p {
-        font-size: 50px; } }
+        font-size: 50px;
+        padding-left: 10%; } }
 
-/* line 17, ../scss/_contact.scss */
+/* line 18, ../scss/_contact.scss */
 .contactBox {
   box-sizing: border-box;
   width: 800px;
   height: 200px;
   display: flex;
   flex-direction: row; }
-  /* line 23, ../scss/_contact.scss */
+  /* line 24, ../scss/_contact.scss */
   .contactBox .column {
     width: calc(300px - 30px);
     height: calc(200px - 30px); }
-    /* line 26, ../scss/_contact.scss */
+    /* line 27, ../scss/_contact.scss */
     .contactBox .column i {
       font-size: 25px; }
-    /* line 29, ../scss/_contact.scss */
+    /* line 30, ../scss/_contact.scss */
     .contactBox .column h5 {
       letter-spacing: 2px;
       text-transform: uppercase;
       padding: 10px 0; }
-    /* line 34, ../scss/_contact.scss */
+    /* line 35, ../scss/_contact.scss */
     .contactBox .column a {
       text-decoration: none;
       color: black;
       letter-spacing: 1px; }
   @media (max-width: 576px) {
-    /* line 17, ../scss/_contact.scss */
+    /* line 18, ../scss/_contact.scss */
     .contactBox {
       width: auto;
       flex-direction: column;
@@ -450,17 +451,26 @@ header {
       #home .sns li a {
         text-decoration: none;
         color: black; }
+        @media (max-width: 576px) {
+          /* line 96, ../scss/style.scss */
+          #home .sns li a {
+            color: white; } }
     @media (max-width: 576px) {
       /* line 86, ../scss/style.scss */
       #home .sns {
         left: 0;
         transform: translate(50%, 50%); } }
+  @media (max-width: 576px) {
+    /* line 79, ../scss/style.scss */
+    #home {
+      background-image: none;
+      background-color: black; } }
 
-/* line 107, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 #skills, #works, #contact {
   display: flex; }
 
-/* line 110, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
   justify-content: space-around;
@@ -470,38 +480,42 @@ header {
   width: 100%;
   height: 700px; }
 
-/* line 119, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .text-part {
   width: 65%;
   height: 80%; }
-  /* line 122, ../scss/style.scss */
+  /* line 129, ../scss/style.scss */
   .text-part h1 {
     font-size: 50px; }
-  /* line 125, ../scss/style.scss */
+  /* line 132, ../scss/style.scss */
   .text-part p {
     font-size: 24px;
     line-height: 50px; }
 
-/* line 130, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 135, ../scss/style.scss */
+  /* line 142, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 140, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
+  @media (max-width: 576px) {
+    /* line 137, ../scss/style.scss */
+    .intro {
+      color: white; } }
 
-/* line 145, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 148, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 .aboutTitle {
   text-align: center;
   font-size: 3rem;
@@ -509,15 +523,15 @@ header {
   align-self: auto;
   margin-top: 10%; }
   @media (max-width: 576px) {
-    /* line 148, ../scss/style.scss */
+    /* line 159, ../scss/style.scss */
     .aboutTitle {
       margin-top: 100px; } }
 
-/* line 158, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .aboutBox {
   align-items: center;
   padding-top: 7%; }
-  /* line 161, ../scss/style.scss */
+  /* line 172, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
     animation: letter 2s 1;
@@ -525,7 +539,7 @@ header {
     line-height: 3rem;
     font-weight: 100; }
     @media (max-width: 576px) {
-      /* line 161, ../scss/style.scss */
+      /* line 172, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
@@ -537,11 +551,11 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 179, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 182, ../scss/style.scss */
+  /* line 193, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;

@@ -96,12 +96,19 @@ header{
       a {
         text-decoration: none;
         color: black;
+        @include respond-to(sm) {
+          color: white;
+        }
       }
     }
     @include respond-to(sm){
       left: 0;
       transform: translate(50%,50%);
     }
+  }
+  @include respond-to(sm) {
+    background-image: none;
+    background-color: black;
   }
 }
 #skills, #works, #contact{
@@ -141,7 +148,11 @@ header{
     font-weight: bold;
     font-size: 40px;
   }
+  @include respond-to(sm){
+    color: white;
+  }
 }
+
 .skillSet{
   width: 70%;
 }
