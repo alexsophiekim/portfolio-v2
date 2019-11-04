@@ -6,3 +6,13 @@ $(document).ready(function(){
     })
   });
 });
+
+element = document.getElementById("about");
+
+// reset the transition by...
+element.addEventListener("click", function(e) {
+  e.preventDefault;
+  element.classList.remove("run-animation");
+  void element.offsetWidth;
+  element.classList.add("run-animation");
+}, true);
