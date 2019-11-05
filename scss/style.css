@@ -1,80 +1,62 @@
-/* line 1, ../scss/_base.scss */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
 
-/* line 6, ../scss/_base.scss */
 body {
   font-family: 'Montserrat', sans-serif; }
 
-/* line 9, ../scss/_base.scss */
 .container {
   max-width: 1000px;
   margin: 0 auto; }
 
-/* line 13, ../scss/_base.scss */
 .col {
   min-height: 40px;
   float: left;
   padding: 12px;
   box-sizing: border-box; }
 
-/* line 19, ../scss/_base.scss */
 .row::after {
   clear: both;
   display: block;
   content: ''; }
 
-/* line 24, ../scss/_base.scss */
 .col12 {
   width: 100%; }
 
-/* line 27, ../scss/_base.scss */
 .col11 {
   width: 91.66%; }
 
-/* line 30, ../scss/_base.scss */
 .col10 {
   width: 83.33%; }
 
-/* line 33, ../scss/_base.scss */
 .col9 {
   width: 75%; }
 
-/* line 36, ../scss/_base.scss */
 .col8 {
   width: 66.67%; }
 
-/* line 39, ../scss/_base.scss */
 .col7 {
   width: 58.33%; }
 
-/* line 42, ../scss/_base.scss */
 .col6 {
   width: 50%; }
 
-/* line 45, ../scss/_base.scss */
 .col5 {
   width: 41.66%; }
 
-/* line 48, ../scss/_base.scss */
 .col4 {
   width: 33.33%; }
 
-/* line 51, ../scss/_base.scss */
 .col3 {
   width: 25%; }
 
-/* line 54, ../scss/_base.scss */
 .col2 {
   width: 16.67%; }
 
-/* line 57, ../scss/_base.scss */
 .col1 {
   width: 8.33%; }
 
-/* line 61, ../scss/_base.scss */
 section {
   position: relative;
   overflow-x: hidden;
@@ -83,7 +65,6 @@ section {
   width: 100%;
   height: 100vh; }
 
-/* line 1, ../scss/_skill.scss */
 .skillsTitle {
   transform: rotate(-90deg);
   font-size: 70px;
@@ -91,22 +72,18 @@ section {
   text-shadow: red 3px 2px;
   margin: -80px; }
 
-/* line 8, ../scss/_skill.scss */
 .skillSet {
   margin-top: 70px; }
-  /* line 10, ../scss/_skill.scss */
   .skillSet p {
     text-align: right;
     margin: 0 10px; }
 
-/* line 15, ../scss/_skill.scss */
 .graph {
   background: #ccc;
   height: 30px;
   border-radius: 40px;
   margin-bottom: 5px; }
 
-/* line 21, ../scss/_skill.scss */
 .graph span {
   display: block;
   height: 30px;
@@ -118,19 +95,15 @@ section {
   background: #8295ab;
   padding: 0 10px; }
 
-/* line 32, ../scss/_skill.scss */
 .line70 span {
   animation: line70 3s 1; }
 
-/* line 36, ../scss/_skill.scss */
 .line75 span {
   animation: line75 3s 1; }
 
-/* line 40, ../scss/_skill.scss */
 .line80 span {
   animation: line80 3s 1; }
 
-/* line 44, ../scss/_skill.scss */
 .line85 span {
   animation: line85 3s 1; }
 
@@ -170,18 +143,14 @@ section {
   100% {
     width: 85%;
     color: white; } }
-/* line 1, ../scss/_works.scss */
 .cardContainer {
   position: relative;
   width: 1200px;
   height: 300px;
   margin: 50px auto; }
   @media (max-width: 576px) {
-    /* line 1, ../scss/_works.scss */
     .cardContainer {
-      margin: 0;
-      transform: translateX(15%); } }
-  /* line 10, ../scss/_works.scss */
+      margin: 0; } }
   .cardContainer .box {
     position: relative;
     width: calc(300px - 30px);
@@ -192,7 +161,6 @@ section {
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden; }
-    /* line 20, ../scss/_works.scss */
     .cardContainer .box .content {
       position: absolute;
       height: calc(100% - 100px);
@@ -202,21 +170,17 @@ section {
       box-sizing: border-box;
       transition: 0.5s;
       opacity: 0; }
-      /* line 29, ../scss/_works.scss */
       .cardContainer .box .content a {
         text-decoration: none; }
-      /* line 32, ../scss/_works.scss */
       .cardContainer .box .content h3 {
         margin: 0;
         padding: 0;
         color: #fff;
         font-size: 24px; }
-      /* line 38, ../scss/_works.scss */
       .cardContainer .box .content p {
         margin: 0;
         padding: 0;
         color: #fff; }
-    /* line 44, ../scss/_works.scss */
     .cardContainer .box .icon {
       position: absolute;
       top: 0;
@@ -225,7 +189,6 @@ section {
       height: 100%;
       transition: 0.5s;
       z-index: 1; }
-      /* line 52, ../scss/_works.scss */
       .cardContainer .box .icon i {
         position: absolute;
         top: 50%;
@@ -236,79 +199,66 @@ section {
         color: #fff;
         visibility: hidden; }
 
-/* line 65, ../scss/_works.scss */
 .cardContainer .box:hover .icon {
   top: 20px;
   left: calc(50% - 40px);
   width: 80px;
   height: 80px;
   border-radius: 50%; }
-  /* line 71, ../scss/_works.scss */
   .cardContainer .box:hover .icon i {
     font-size: 40px;
     visibility: visible; }
 
-/* line 76, ../scss/_works.scss */
 .cardContainer .box:hover .content {
   top: 100px;
   opacity: 1; }
 
-/* line 80, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+1) {
   background: #c37466; }
 
-/* line 83, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+2) {
   background: #a8b6b1; }
 
-/* line 86, ../scss/_works.scss */
 .cardContainer .box:nth-child(1) .icon {
   background: #e37363;
   background-image: url(../img/tandoori.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 91, ../scss/_works.scss */
 .cardContainer .box:nth-child(2) .icon {
   background: #c37466;
   background-image: url(../img/caucus.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 96, ../scss/_works.scss */
 .cardContainer .box:nth-child(3) .icon {
   background: #a8b6b1;
   background-image: url(../img/mtruapehu.png);
   background-position: top;
   background-size: cover; }
 
-/* line 101, ../scss/_works.scss */
 .cardContainer .box:nth-child(4) .icon {
   background: #c37466;
   background-image: url(../img/beat.gif);
   background-position: top;
   background-size: cover; }
 
-/* line 106, ../scss/_works.scss */
 .cardContainer .box:nth-child(5) .icon {
   background: #a8b6b1;
   background-image: url(../img/supermarket.png);
   background-position: top;
   background-size: cover; }
 
-/* line 111, ../scss/_works.scss */
 .cardContainer .box:nth-child(6) .icon {
   background: #a8b6b1;
   background-image: url(../img/thread.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 1, ../scss/_contact.scss */
 .contactIntro {
   padding-bottom: 20px;
   border-bottom: solid 1px #cecece;
   width: 800px; }
-  /* line 6, ../scss/_contact.scss */
   .contactIntro p {
     padding-top: 15%;
     text-shadow: #5D779C 4px 2px;
@@ -316,43 +266,35 @@ section {
     font-size: 80px;
     font-weight: 100; }
     @media (max-width: 576px) {
-      /* line 6, ../scss/_contact.scss */
       .contactIntro p {
         font-size: 50px;
         padding-left: 10%; } }
 
-/* line 18, ../scss/_contact.scss */
 .contactBox {
   box-sizing: border-box;
   width: 800px;
   height: 200px;
   display: flex;
   flex-direction: row; }
-  /* line 24, ../scss/_contact.scss */
   .contactBox .column {
     width: calc(300px - 30px);
     height: calc(200px - 30px); }
-    /* line 27, ../scss/_contact.scss */
     .contactBox .column i {
       font-size: 25px; }
-    /* line 30, ../scss/_contact.scss */
     .contactBox .column h5 {
       letter-spacing: 2px;
       text-transform: uppercase;
       padding: 10px 0; }
-    /* line 35, ../scss/_contact.scss */
     .contactBox .column a {
       text-decoration: none;
       color: black;
       letter-spacing: 1px; }
   @media (max-width: 576px) {
-    /* line 18, ../scss/_contact.scss */
     .contactBox {
       width: auto;
       flex-direction: column;
       height: 250px; } }
 
-/* line 7, ../scss/style.scss */
 .ti-close {
   display: none;
   position: absolute;
@@ -360,7 +302,6 @@ section {
   right: 15px;
   font-weight: 600; }
 
-/* line 14, ../scss/style.scss */
 header {
   position: fixed;
   z-index: 99;
@@ -370,61 +311,48 @@ header {
   height: 70px;
   flex-wrap: wrap;
   background-color: white; }
-  /* line 23, ../scss/style.scss */
   header .logo, header .mLogo {
     max-height: 50px;
     margin-top: 10px;
     margin-left: 10px; }
   @media (max-width: 576px) {
-    /* line 28, ../scss/style.scss */
     header .logo {
       display: none; } }
-  /* line 31, ../scss/style.scss */
   header .nav {
     align-self: center; }
-    /* line 33, ../scss/style.scss */
     header .nav .active {
       display: flex; }
-    /* line 36, ../scss/style.scss */
     header .nav ul {
       list-style: none;
       display: flex; }
       @media (max-width: 576px) {
-        /* line 36, ../scss/style.scss */
         header .nav ul {
           flex-direction: column;
           height: 100vh;
           width: 100vw;
           background-color: black;
           display: none; } }
-    /* line 47, ../scss/style.scss */
     header .nav li {
       float: left;
       padding: 20px;
       text-align: center; }
       @media (max-width: 576px) {
-        /* line 47, ../scss/style.scss */
         header .nav li {
           background-color: rgba(0, 0, 0, 0); } }
-      /* line 54, ../scss/style.scss */
       header .nav li a {
         text-decoration: none;
         font-weight: 600;
         text-shadow: rgba(0, 0, 0, 0.1) 1px 1px;
         color: black; }
-        /* line 59, ../scss/style.scss */
         header .nav li a:active, header .nav li a:focus, header .nav li ahover {
           border-bottom: 5px solid #8295ab;
           bottom: -10px; }
         @media (max-width: 576px) {
-          /* line 54, ../scss/style.scss */
           header .nav li a {
             color: white; } }
-  /* line 69, ../scss/style.scss */
   header .toggle {
     display: none; }
     @media (max-width: 576px) {
-      /* line 69, ../scss/style.scss */
       header .toggle {
         padding: 10px 20px;
         text-align: right;
@@ -434,14 +362,12 @@ header {
         display: block;
         background-color: black; } }
   @media (max-width: 576px) {
-    /* line 14, ../scss/style.scss */
     header {
       width: 100vw;
       background: black;
       box-sizing: border-box;
       z-index: 2; } }
 
-/* line 90, ../scss/style.scss */
 #home {
   background-image: url(../img/uxbg.jpg);
   background-position: center;
@@ -449,46 +375,34 @@ header {
   background-size: cover;
   width: 100%;
   height: 100vh; }
-  /* line 97, ../scss/style.scss */
   #home .sns {
     bottom: 5%;
     left: 3%;
     font-size: 18px;
     position: absolute;
     z-index: 0; }
-    /* line 103, ../scss/style.scss */
     #home .sns li {
       list-style: none;
       display: inline;
       margin-left: 10px; }
-      /* line 107, ../scss/style.scss */
       #home .sns li a {
         text-decoration: none;
         color: black; }
         @media (max-width: 576px) {
-          /* line 107, ../scss/style.scss */
           #home .sns li a {
             color: white; } }
     @media (max-width: 576px) {
-      /* line 97, ../scss/style.scss */
       #home .sns {
         left: 0;
         transform: translate(50%, 50%); } }
   @media (max-width: 576px) {
-    /* line 90, ../scss/style.scss */
     #home {
       background-image: none;
       background-color: black; } }
 
-/* line 125, ../scss/style.scss */
-#works {
-  align-items: baseline !important; }
-
-/* line 128, ../scss/style.scss */
 #skills, #works, #contact {
   display: flex; }
 
-/* line 131, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
   justify-content: space-around;
@@ -498,67 +412,53 @@ header {
   width: 100%;
   height: 700px; }
 
-/* line 140, ../scss/style.scss */
 .text-part {
   width: 65%;
   height: 80%; }
-  /* line 143, ../scss/style.scss */
   .text-part h1 {
     font-size: 50px; }
-  /* line 146, ../scss/style.scss */
   .text-part p {
     font-size: 24px;
     line-height: 50px; }
 
-/* line 151, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 156, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 161, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
   @media (max-width: 576px) {
-    /* line 151, ../scss/style.scss */
     .intro {
       color: white; } }
 
-/* line 169, ../scss/style.scss */
 .down {
   display: none; }
   @media (max-width: 576px) {
-    /* line 169, ../scss/style.scss */
     .down {
       display: block;
       position: absolute;
       bottom: 25%;
       right: 50%;
       transform: translateX(50%); }
-      /* line 177, ../scss/style.scss */
       .down .downbtn {
         color: white; }
-        /* line 179, ../scss/style.scss */
         .down .downbtn i {
           color: white;
           font-size: 30px;
           text-align: center; }
-          /* line 183, ../scss/style.scss */
           .down .downbtn i p {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             text-transform: uppercase; } }
 
-/* line 192, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 195, ../scss/style.scss */
 .aboutTitle {
   text-align: center;
   font-size: 3rem;
@@ -566,15 +466,12 @@ header {
   align-self: auto;
   margin-top: 10%; }
   @media (max-width: 576px) {
-    /* line 195, ../scss/style.scss */
     .aboutTitle {
       margin-top: 100px; } }
 
-/* line 205, ../scss/style.scss */
 .aboutBox {
   align-items: center;
   padding-top: 7%; }
-  /* line 208, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
     animation: 4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s 1 letter;
@@ -582,7 +479,6 @@ header {
     line-height: 3rem;
     font-weight: 100; }
     @media (max-width: 576px) {
-      /* line 208, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
@@ -594,11 +490,9 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 226, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 229, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;

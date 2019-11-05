@@ -4,7 +4,8 @@
   height: 300px;
   margin: 50px auto;
   @include respond-to(sm){
-    margin-left: 10%;
+    margin: 0;
+    transform: translateX(15%);
   }
   .box{
     position: relative;

@@ -122,6 +122,9 @@ header{
     background-color: black;
   }
 }
+#works{
+  align-items: baseline !important;
+}
 #skills, #works, #contact{
   display: flex;
 }
