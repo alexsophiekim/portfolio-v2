@@ -1,18 +1,17 @@
 $(document).ready(function(){
   $('.ti-menu').on('click', function(){
     $('ul').toggleClass('active');
+    $('.ti-menu').hide();
+    $('.ti-close').show();
     $('li').click(function(){
       $('ul').removeClass('active');
+      $('.ti-menu').show();
+      $('.ti-close').hide();
     })
   });
+  $('.ti-close').click(function(){
+      $('ul').removeClass('active');
+      $('.ti-menu').show();
+      $('.ti-close').hide();
+  })
 });
-
-element = document.getElementById("about");
-
-// reset the transition by...
-element.addEventListener("click", function(e) {
-  e.preventDefault;
-  element.classList.remove("run-animation");
-  void element.offsetWidth;
-  element.classList.add("run-animation");
-}, true);

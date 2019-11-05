@@ -4,7 +4,13 @@
 @import 'skill';
 @import 'works';
 @import 'contact';
-
+.ti-close{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: 600;
+}
 header{
   position: fixed;
   z-index: 99;
@@ -16,8 +22,8 @@ header{
   background-color: white;
   .logo, .mLogo{
     max-height: 50px;
-    margin: 10px;
-    // width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
   .logo {
      @include respond-to(sm) { display: none;}
@@ -33,7 +39,7 @@ header{
       @include respond-to(sm) {
         flex-direction: column;
         height: 100vh;
-        width: 200px;
+        width: 100vw;
         background-color: rgba(0, 0, 0, 1);
         display: none;
       }
@@ -48,8 +54,12 @@ header{
       a{
         text-decoration: none;
         font-weight: 600;
-        text-shadow: rgba(0,0,0,0.1) 2px 2px;
+        text-shadow: rgba(0,0,0,0.1) 1px 1px;
         color: black;
+        &:active, &:focus, &hover{
+          border-bottom: 5px solid #8295ab;
+          bottom: -10px;
+        }
         @include respond-to(sm) {
           color: white;
         }
@@ -62,10 +72,11 @@ header{
       padding: 10px 20px;
       text-align: right;
       color: white;
-      // background-color: black;
       font-size: 30px;
       z-index: 1;
       display: block;
+      background-color: black;
+
     }
   }
   @include respond-to(sm) {
@@ -171,7 +182,7 @@ header{
   padding-top:7%;
    h1{
       margin: 5% auto;
-      animation: letter 2s 1;
+      animation: 4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s 1 letter;
       max-width: 1000px;
       line-height: 3rem;
       font-weight: 100;
