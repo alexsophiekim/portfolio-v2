@@ -525,11 +525,36 @@ header {
     .intro {
       color: white; } }
 
-/* line 167, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
+.down {
+  display: none; }
+  @media (max-width: 576px) {
+    /* line 166, ../scss/style.scss */
+    .down {
+      display: block;
+      position: absolute;
+      bottom: 25%;
+      right: 50%;
+      transform: translateX(50%); }
+      /* line 174, ../scss/style.scss */
+      .down .downbtn {
+        color: white; }
+        /* line 176, ../scss/style.scss */
+        .down .downbtn i {
+          color: white;
+          font-size: 30px;
+          text-align: center; }
+          /* line 180, ../scss/style.scss */
+          .down .downbtn i p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            text-transform: uppercase; } }
+
+/* line 189, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 170, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 .aboutTitle {
   text-align: center;
   font-size: 3rem;
@@ -537,15 +562,15 @@ header {
   align-self: auto;
   margin-top: 10%; }
   @media (max-width: 576px) {
-    /* line 170, ../scss/style.scss */
+    /* line 192, ../scss/style.scss */
     .aboutTitle {
       margin-top: 100px; } }
 
-/* line 180, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .aboutBox {
   align-items: center;
   padding-top: 7%; }
-  /* line 183, ../scss/style.scss */
+  /* line 205, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
     animation: 4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s 1 letter;
@@ -553,7 +578,7 @@ header {
     line-height: 3rem;
     font-weight: 100; }
     @media (max-width: 576px) {
-      /* line 183, ../scss/style.scss */
+      /* line 205, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
@@ -565,11 +590,11 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 201, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 204, ../scss/style.scss */
+  /* line 226, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;

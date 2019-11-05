@@ -163,7 +163,29 @@ header{
     color: white;
   }
 }
-
+.down{
+ display: none;
+ @include respond-to(sm){
+     display: block;
+     position: absolute;
+     bottom: 25%;
+     right: 50%;
+     transform: translateX(50%);
+        .downbtn{
+            color: white;
+            i{
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+ }
+}
 .skillSet{
   width: 70%;
 }

@@ -15,3 +15,7 @@ $(document).ready(function(){
       $('.ti-close').hide();
   })
 });
+
+function scrollDown() {
+  window.scrollTo(0, 680);
+}
