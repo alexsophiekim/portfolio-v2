@@ -488,15 +488,14 @@ header {
 #skills, #works, #contact {
   display: flex; }
 
-/* line 131, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 100%;
-  height: 700px; }
+  width: 100%; }
 
 /* line 140, ../scss/style.scss */
 .text-part {
@@ -511,54 +510,69 @@ header {
     line-height: 50px; }
 
 /* line 151, ../scss/style.scss */
+.ml16 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  overflow: hidden; }
+
+/* line 161, ../scss/style.scss */
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em; }
+
+/* line 165, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 156, ../scss/style.scss */
+  /* line 170, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 161, ../scss/style.scss */
+  /* line 175, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
   @media (max-width: 576px) {
-    /* line 151, ../scss/style.scss */
+    /* line 165, ../scss/style.scss */
     .intro {
       color: white; } }
 
-/* line 169, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .down {
   display: none; }
   @media (max-width: 576px) {
-    /* line 169, ../scss/style.scss */
+    /* line 183, ../scss/style.scss */
     .down {
       display: block;
       position: absolute;
       bottom: 25%;
       right: 50%;
       transform: translateX(50%); }
-      /* line 177, ../scss/style.scss */
+      /* line 191, ../scss/style.scss */
       .down .downbtn {
         color: white; }
-        /* line 179, ../scss/style.scss */
+        /* line 193, ../scss/style.scss */
         .down .downbtn i {
           color: white;
           font-size: 30px;
           text-align: center; }
-          /* line 183, ../scss/style.scss */
+          /* line 197, ../scss/style.scss */
           .down .downbtn i p {
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
             text-transform: uppercase; } }
 
-/* line 192, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 195, ../scss/style.scss */
+/* line 209, ../scss/style.scss */
 .aboutTitle {
   text-align: center;
   font-size: 3rem;
@@ -566,15 +580,15 @@ header {
   align-self: auto;
   margin-top: 10%; }
   @media (max-width: 576px) {
-    /* line 195, ../scss/style.scss */
+    /* line 209, ../scss/style.scss */
     .aboutTitle {
       margin-top: 100px; } }
 
-/* line 205, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 .aboutBox {
   align-items: center;
   padding-top: 7%; }
-  /* line 208, ../scss/style.scss */
+  /* line 222, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
     animation: 4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s 1 letter;
@@ -582,7 +596,7 @@ header {
     line-height: 3rem;
     font-weight: 100; }
     @media (max-width: 576px) {
-      /* line 208, ../scss/style.scss */
+      /* line 222, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
@@ -594,11 +608,11 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 226, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 229, ../scss/style.scss */
+  /* line 243, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;
