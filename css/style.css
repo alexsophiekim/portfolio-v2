@@ -592,7 +592,7 @@ header {
   /* line 223, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
-    animation: 4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s 1 letter;
+    animation: 2s ease-out 1 letter;
     max-width: 1000px;
     line-height: 3rem;
     font-weight: 100; }
