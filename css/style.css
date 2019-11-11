@@ -170,6 +170,13 @@ section {
   100% {
     width: 85%;
     color: white; } }
+/* line 69, ../scss/_skill.scss */
+.animateLine {
+  animation: line70 3S 1;
+  animation: line75 3s 1;
+  animation: line80 3s 1;
+  animation: line85 3s 1; }
+
 /* line 1, ../scss/_works.scss */
 .cardContainer {
   position: relative;
@@ -592,10 +599,10 @@ header {
   /* line 223, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
-    animation: 2s ease-out 1 letter;
     max-width: 1000px;
     line-height: 3rem;
-    font-weight: 100; }
+    font-weight: 100;
+    animation: 2s ease-out 1 letter; }
     @media (max-width: 576px) {
       /* line 223, ../scss/style.scss */
       .aboutBox h1 {
@@ -604,16 +611,20 @@ header {
         margin-top: 15%;
         padding: 0 3%; } }
 
+/* line 237, ../scss/style.scss */
+.animation {
+  animation: 2s ease-out 1 letter; }
+
 @keyframes letter {
   0% {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 241, ../scss/style.scss */
+/* line 244, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 244, ../scss/style.scss */
+  /* line 247, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;

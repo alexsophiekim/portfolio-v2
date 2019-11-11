@@ -18,4 +18,25 @@ $(document).ready(function(){
 
 function scrollDown() {
   window.scrollTo(0, 680);
-}
+};
+
+
+const about = $('.about');
+const skills = $('.skills');
+
+about.click(function(){
+  console.log('clicked');
+    $('.aboutText').addClass('animation').toggle();
+});
+  //
+  // var skillSet = $('.skillSet');
+  // var offset = 300;
+  // var skillSetOffsetTop = skillSet.offset().top - offset;
+  // $(window).scroll(function(){
+  //   if ($(this).scrollTop() > skillSetOffsetTop) {
+  //     skillSet.find('graph').addClass('animateLine');
+  //   }
+  //   else {
+  //
+  //   }
+  // });

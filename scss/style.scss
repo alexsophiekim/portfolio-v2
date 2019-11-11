@@ -222,10 +222,10 @@ header{
   padding-top:7%;
    h1{
       margin: 5% auto;
-      animation: 2s ease-out 1 letter;
       max-width: 1000px;
       line-height: 3rem;
       font-weight: 100;
+      animation: 2s ease-out 1 letter;
       @include respond-to(sm){
         font-size: 1rem;
         line-height: 2rem;
@@ -233,6 +233,9 @@ header{
         padding: 0 3%;
       }
   }
+}
+.animation{
+  animation: 2s ease-out 1 letter;
 }
 @keyframes letter{
   0%{ letter-spacing: 2em;}
