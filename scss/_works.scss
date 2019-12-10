@@ -1,8 +1,9 @@
 .cardContainer{
   position: relative;
   width: 1200px;
-  height: 300px;
+  // height: 300px;
   margin: 50px auto;
+  margin-top: 70px;
   @include respond-to(sm){
     margin: 0;
     transform: translateX(15%);
@@ -111,5 +112,10 @@
 .cardContainer .box:nth-child(6) .icon{
   background: #a8b6b1;
   background-image: url(../img/thread.jpg);
+  background-position: top;    background-size: cover;
+}
+.cardContainer .box:nth-child(7) .icon{
+  background: #a8b6b1;
+  background-image: url(../img/mockup.jpg);
   background-position: top;    background-size: cover;
 }

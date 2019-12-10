@@ -181,14 +181,14 @@ section {
 .cardContainer {
   position: relative;
   width: 1200px;
-  height: 300px;
-  margin: 50px auto; }
+  margin: 50px auto;
+  margin-top: 70px; }
   @media (max-width: 576px) {
     /* line 1, ../scss/_works.scss */
     .cardContainer {
       margin: 0;
       transform: translateX(15%); } }
-  /* line 10, ../scss/_works.scss */
+  /* line 11, ../scss/_works.scss */
   .cardContainer .box {
     position: relative;
     width: calc(300px - 30px);
@@ -199,7 +199,7 @@ section {
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden; }
-    /* line 20, ../scss/_works.scss */
+    /* line 21, ../scss/_works.scss */
     .cardContainer .box .content {
       position: absolute;
       height: calc(100% - 100px);
@@ -209,21 +209,21 @@ section {
       box-sizing: border-box;
       transition: 0.5s;
       opacity: 0; }
-      /* line 29, ../scss/_works.scss */
+      /* line 30, ../scss/_works.scss */
       .cardContainer .box .content a {
         text-decoration: none; }
-      /* line 32, ../scss/_works.scss */
+      /* line 33, ../scss/_works.scss */
       .cardContainer .box .content h3 {
         margin: 0;
         padding: 0;
         color: #fff;
         font-size: 24px; }
-      /* line 38, ../scss/_works.scss */
+      /* line 39, ../scss/_works.scss */
       .cardContainer .box .content p {
         margin: 0;
         padding: 0;
         color: #fff; }
-    /* line 44, ../scss/_works.scss */
+    /* line 45, ../scss/_works.scss */
     .cardContainer .box .icon {
       position: absolute;
       top: 0;
@@ -232,7 +232,7 @@ section {
       height: 100%;
       transition: 0.5s;
       z-index: 1; }
-      /* line 52, ../scss/_works.scss */
+      /* line 53, ../scss/_works.scss */
       .cardContainer .box .icon i {
         position: absolute;
         top: 50%;
@@ -243,70 +243,77 @@ section {
         color: #fff;
         visibility: hidden; }
 
-/* line 65, ../scss/_works.scss */
+/* line 66, ../scss/_works.scss */
 .cardContainer .box:hover .icon {
   top: 20px;
   left: calc(50% - 40px);
   width: 80px;
   height: 80px;
   border-radius: 50%; }
-  /* line 71, ../scss/_works.scss */
+  /* line 72, ../scss/_works.scss */
   .cardContainer .box:hover .icon i {
     font-size: 40px;
     visibility: visible; }
 
-/* line 76, ../scss/_works.scss */
+/* line 77, ../scss/_works.scss */
 .cardContainer .box:hover .content {
   top: 100px;
   opacity: 1; }
 
-/* line 80, ../scss/_works.scss */
+/* line 81, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+1) {
   background: #c37466; }
 
-/* line 83, ../scss/_works.scss */
+/* line 84, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+2) {
   background: #a8b6b1; }
 
-/* line 86, ../scss/_works.scss */
+/* line 87, ../scss/_works.scss */
 .cardContainer .box:nth-child(1) .icon {
   background: #e37363;
   background-image: url(../img/tandoori.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 91, ../scss/_works.scss */
+/* line 92, ../scss/_works.scss */
 .cardContainer .box:nth-child(2) .icon {
   background: #c37466;
   background-image: url(../img/caucus.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 96, ../scss/_works.scss */
+/* line 97, ../scss/_works.scss */
 .cardContainer .box:nth-child(3) .icon {
   background: #a8b6b1;
   background-image: url(../img/mtruapehu.png);
   background-position: top;
   background-size: cover; }
 
-/* line 101, ../scss/_works.scss */
+/* line 102, ../scss/_works.scss */
 .cardContainer .box:nth-child(4) .icon {
   background: #c37466;
   background-image: url(../img/beat.gif);
   background-position: top;
   background-size: cover; }
 
-/* line 106, ../scss/_works.scss */
+/* line 107, ../scss/_works.scss */
 .cardContainer .box:nth-child(5) .icon {
   background: #a8b6b1;
   background-image: url(../img/supermarket.png);
   background-position: top;
   background-size: cover; }
 
-/* line 111, ../scss/_works.scss */
+/* line 112, ../scss/_works.scss */
 .cardContainer .box:nth-child(6) .icon {
   background: #a8b6b1;
   background-image: url(../img/thread.jpg);
+  background-position: top;
+  background-size: cover; }
+
+/* line 117, ../scss/_works.scss */
+.cardContainer .box:nth-child(7) .icon {
+  background: #a8b6b1;
+  background-image: url(../img/mockup.jpg);
   background-position: top;
   background-size: cover; }
 
@@ -412,7 +419,7 @@ header {
           flex-direction: column;
           height: 100vh;
           width: 100vw;
-          background-color: black;
+          background-color: #1d2021;
           display: none; } }
     /* line 55, ../scss/style.scss */
     header .nav li {
@@ -490,7 +497,6 @@ header {
       /* line 105, ../scss/style.scss */
       #home .sns {
         left: 0;
-        right: 50%;
         transform: translate(50%, 50%); } }
   @media (max-width: 576px) {
     /* line 98, ../scss/style.scss */
@@ -498,15 +504,15 @@ header {
       background-image: none;
       background-color: #1d2021; } }
 
-/* line 134, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 #works {
   align-items: baseline !important; }
 
-/* line 137, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 #skills, #works, #contact {
   display: flex; }
 
-/* line 141, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 #about, #skills, #works, #contact {
   position: relative;
   justify-content: space-around;
@@ -515,19 +521,19 @@ header {
   flex-direction: row;
   width: 100%; }
 
-/* line 149, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 .text-part {
   width: 65%;
   height: 80%; }
-  /* line 152, ../scss/style.scss */
+  /* line 151, ../scss/style.scss */
   .text-part h1 {
     font-size: 50px; }
-  /* line 155, ../scss/style.scss */
+  /* line 154, ../scss/style.scss */
   .text-part p {
     font-size: 24px;
     line-height: 50px; }
 
-/* line 160, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 .ml16 {
   color: #402d2d;
   padding: 40px 0;
@@ -537,35 +543,35 @@ header {
   letter-spacing: 0.3em;
   overflow: hidden; }
 
-/* line 170, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .ml16 .letter {
   display: inline-block;
   line-height: 1em; }
 
-/* line 174, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 .intro {
   text-align: center;
   position: relative;
   top: 30%; }
-  /* line 179, ../scss/style.scss */
+  /* line 178, ../scss/style.scss */
   .intro p {
     font-size: 20px;
     font-weight: normal;
     line-height: 30px; }
-  /* line 184, ../scss/style.scss */
+  /* line 183, ../scss/style.scss */
   .intro span {
     font-weight: bold;
     font-size: 40px; }
   @media (max-width: 576px) {
-    /* line 174, ../scss/style.scss */
+    /* line 173, ../scss/style.scss */
     .intro {
       color: white; } }
 
-/* line 193, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 .skillSet {
   width: 70%; }
 
-/* line 196, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 .aboutTitle {
   text-align: center;
   font-size: 3rem;
@@ -573,15 +579,15 @@ header {
   align-self: auto;
   margin-top: 10%; }
   @media (max-width: 576px) {
-    /* line 196, ../scss/style.scss */
+    /* line 195, ../scss/style.scss */
     .aboutTitle {
       margin-top: 100px; } }
 
-/* line 206, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .aboutBox {
   align-items: center;
   padding-top: 7%; }
-  /* line 209, ../scss/style.scss */
+  /* line 208, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
     max-width: 1000px;
@@ -589,14 +595,14 @@ header {
     font-weight: 100;
     animation: 2s ease-out 1 letter; }
     @media (max-width: 576px) {
-      /* line 209, ../scss/style.scss */
+      /* line 208, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
         margin-top: 15%;
-        padding: 0 3%; } }
+        padding: 0 5%; } }
 
-/* line 223, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .animation {
   animation: 2s ease-out 1 letter; }
 
@@ -605,11 +611,11 @@ header {
     letter-spacing: 2em; }
   100% {
     letter-spacing: 5px; } }
-/* line 230, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 233, ../scss/style.scss */
+  /* line 232, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;
