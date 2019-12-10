@@ -20,13 +20,21 @@ header{
   height: 70px;
   flex-wrap: wrap;
   background-color: white;
-  .logo, .mLogo{
+  .mLogo{
+    display: none;
+    @include respond-to(sm){
+      display: block;
+      max-height: 50px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+  .logo {
     max-height: 50px;
     margin-top: 10px;
     margin-left: 10px;
-  }
-  .logo {
-     @include respond-to(sm) { display: none;}
+     @include respond-to(sm) {
+       display: none;}
   }
   .nav{
     align-self: center;
@@ -75,13 +83,13 @@ header{
       font-size: 30px;
       z-index: 1;
       display: block;
-      background-color: black;
+      background-color: $gray;
 
     }
   }
   @include respond-to(sm) {
     width: 100vw;
-    background: black;
+    background: $gray;
     box-sizing: border-box;
     z-index: 2;
   }
@@ -120,7 +128,7 @@ header{
   }
   @include respond-to(sm) {
     background-image: none;
-    background-color: black;
+    background-color:$gray;
   }
 }
 #works{
@@ -181,29 +189,7 @@ header{
     color: white;
   }
 }
-.down{
- display: none;
- @include respond-to(sm){
-     display: block;
-     position: absolute;
-     bottom: 25%;
-     right: 50%;
-     transform: translateX(50%);
-        .downbtn{
-            color: white;
-            i{
-                color: white;
-                font-size: 30px;
-                text-align: center;
-                p{
-                    font-family: 'Montserrat', sans-serif;
-                    font-size: 20px;
-                    text-transform: uppercase;
-                }
-            }
-        }
- }
-}
+
 .skillSet{
   width: 70%;
 }
