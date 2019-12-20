@@ -13,5 +13,9 @@ $(document).ready(function(){
       $('ul').removeClass('active');
       $('.ti-menu').show();
       $('.ti-close').hide();
-  })
+  });
+  $(window).scroll(function(){
+    var top = $(window).scrollTop() / 450;
+      $('.aboutBox').css("opacity", -1 + top)
+  });
 });

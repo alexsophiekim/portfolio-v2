@@ -202,15 +202,18 @@ header{
     margin-top: 100px;
   }
 }
+
 .aboutBox{
   align-items: center;
   padding-top:7%;
+  opacity: 1;
+
    h1{
       margin: 5% auto;
       max-width: 1000px;
       line-height: 3rem;
       font-weight: 100;
-      animation: 2s ease-out 1 letter;
+      animation: 2s ease-in 1 letter;
       @include respond-to(sm){
         font-size: 1rem;
         line-height: 2rem;
@@ -219,12 +222,12 @@ header{
       }
   }
 }
-.animation{
+.isScroll{
   animation: 2s ease-out 1 letter;
 }
 @keyframes letter{
-  0%{ letter-spacing: 2em;}
-  100%{ letter-spacing: 5px; }
+  0%{ opacity: 0; transform: translateY(150px);}
+  100%{ opacity: 1; transform: translateY(0px);}
 }
 footer{
   border-top: solid 1px black;

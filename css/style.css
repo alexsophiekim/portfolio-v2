@@ -582,39 +582,42 @@ header {
     .aboutTitle {
       margin-top: 100px; } }
 
-/* line 205, ../scss/style.scss */
+/* line 206, ../scss/style.scss */
 .aboutBox {
   align-items: center;
-  padding-top: 7%; }
-  /* line 208, ../scss/style.scss */
+  padding-top: 7%;
+  opacity: 1; }
+  /* line 211, ../scss/style.scss */
   .aboutBox h1 {
     margin: 5% auto;
     max-width: 1000px;
     line-height: 3rem;
     font-weight: 100;
-    animation: 2s ease-out 1 letter; }
+    animation: 2s ease-in 1 letter; }
     @media (max-width: 576px) {
-      /* line 208, ../scss/style.scss */
+      /* line 211, ../scss/style.scss */
       .aboutBox h1 {
         font-size: 1rem;
         line-height: 2rem;
         margin-top: 15%;
         padding: 0 5%; } }
 
-/* line 222, ../scss/style.scss */
-.animation {
+/* line 225, ../scss/style.scss */
+.isScroll {
   animation: 2s ease-out 1 letter; }
 
 @keyframes letter {
   0% {
-    letter-spacing: 2em; }
+    opacity: 0;
+    transform: translateY(150px); }
   100% {
-    letter-spacing: 5px; } }
-/* line 229, ../scss/style.scss */
+    opacity: 1;
+    transform: translateY(0px); } }
+/* line 232, ../scss/style.scss */
 footer {
   border-top: solid 1px black;
   background-color: black; }
-  /* line 232, ../scss/style.scss */
+  /* line 235, ../scss/style.scss */
   footer p {
     color: white;
     padding: 3%;
