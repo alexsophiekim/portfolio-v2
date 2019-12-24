@@ -77,6 +77,7 @@ body {
 /* line 62, ../scss/_base.scss */
 section {
   position: relative;
+  overflow: scroll;
   scroll-behavior: smooth;
   scroll-snap-align: start;
   width: 100%;
