@@ -77,7 +77,6 @@ body {
 /* line 62, ../scss/_base.scss */
 section {
   position: relative;
-  overflow-x: scroll;
   scroll-behavior: smooth;
   scroll-snap-align: start;
   width: 100%;
@@ -178,17 +177,22 @@ section {
   animation: line85 3s 1; }
 
 /* line 1, ../scss/_works.scss */
+.worksTitle {
+  text-align: center;
+  margin-bottom: 20px; }
+
+/* line 5, ../scss/_works.scss */
 .cardContainer {
   position: relative;
   width: 1200px;
   margin: 50px auto;
   margin-top: 70px; }
   @media (max-width: 576px) {
-    /* line 1, ../scss/_works.scss */
+    /* line 5, ../scss/_works.scss */
     .cardContainer {
       margin: 0;
       transform: translateX(15%); } }
-  /* line 11, ../scss/_works.scss */
+  /* line 15, ../scss/_works.scss */
   .cardContainer .box {
     position: relative;
     width: calc(300px - 30px);
@@ -199,7 +203,7 @@ section {
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden; }
-    /* line 21, ../scss/_works.scss */
+    /* line 25, ../scss/_works.scss */
     .cardContainer .box .content {
       position: absolute;
       height: calc(100% - 100px);
@@ -209,21 +213,21 @@ section {
       box-sizing: border-box;
       transition: 0.5s;
       opacity: 0; }
-      /* line 30, ../scss/_works.scss */
+      /* line 34, ../scss/_works.scss */
       .cardContainer .box .content a {
         text-decoration: none; }
-      /* line 33, ../scss/_works.scss */
+      /* line 37, ../scss/_works.scss */
       .cardContainer .box .content h3 {
         margin: 0;
         padding: 0;
         color: #fff;
         font-size: 24px; }
-      /* line 39, ../scss/_works.scss */
+      /* line 43, ../scss/_works.scss */
       .cardContainer .box .content p {
         margin: 0;
         padding: 0;
         color: #fff; }
-    /* line 45, ../scss/_works.scss */
+    /* line 49, ../scss/_works.scss */
     .cardContainer .box .icon {
       position: absolute;
       top: 0;
@@ -232,7 +236,7 @@ section {
       height: 100%;
       transition: 0.5s;
       z-index: 1; }
-      /* line 53, ../scss/_works.scss */
+      /* line 57, ../scss/_works.scss */
       .cardContainer .box .icon i {
         position: absolute;
         top: 50%;
@@ -243,74 +247,74 @@ section {
         color: #fff;
         visibility: hidden; }
 
-/* line 66, ../scss/_works.scss */
+/* line 70, ../scss/_works.scss */
 .cardContainer .box:hover .icon {
   top: 20px;
   left: calc(50% - 40px);
   width: 80px;
   height: 80px;
   border-radius: 50%; }
-  /* line 72, ../scss/_works.scss */
+  /* line 76, ../scss/_works.scss */
   .cardContainer .box:hover .icon i {
     font-size: 40px;
     visibility: visible; }
 
-/* line 77, ../scss/_works.scss */
+/* line 81, ../scss/_works.scss */
 .cardContainer .box:hover .content {
   top: 100px;
   opacity: 1; }
 
-/* line 81, ../scss/_works.scss */
+/* line 85, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+1) {
   background: #c37466; }
 
-/* line 84, ../scss/_works.scss */
+/* line 88, ../scss/_works.scss */
 .cardContainer .box:nth-child(2n+2) {
   background: #a8b6b1; }
 
-/* line 87, ../scss/_works.scss */
+/* line 91, ../scss/_works.scss */
 .cardContainer .box:nth-child(1) .icon {
   background-image: url(../img/tandoori.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 91, ../scss/_works.scss */
+/* line 95, ../scss/_works.scss */
 .cardContainer .box:nth-child(2) .icon {
   background-image: url(../img/caucus.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 95, ../scss/_works.scss */
+/* line 99, ../scss/_works.scss */
 .cardContainer .box:nth-child(3) .icon {
   background-image: url(../img/mtruapehu.png);
   background-position: top;
   background-size: cover; }
 
-/* line 99, ../scss/_works.scss */
+/* line 103, ../scss/_works.scss */
 .cardContainer .box:nth-child(4) .icon {
   background-image: url(../img/beat.gif);
   background-position: top;
   background-size: cover; }
 
-/* line 103, ../scss/_works.scss */
+/* line 107, ../scss/_works.scss */
 .cardContainer .box:nth-child(5) .icon {
   background-image: url(../img/supermarket.png);
   background-position: top;
   background-size: cover; }
 
-/* line 107, ../scss/_works.scss */
+/* line 111, ../scss/_works.scss */
 .cardContainer .box:nth-child(6) .icon {
   background-image: url(../img/thread.png);
   background-position: top;
   background-size: cover; }
 
-/* line 111, ../scss/_works.scss */
+/* line 115, ../scss/_works.scss */
 .cardContainer .box:nth-child(7) .icon {
   background-image: url(../img/mockup.jpg);
   background-position: top;
   background-size: cover; }
 
-/* line 115, ../scss/_works.scss */
+/* line 119, ../scss/_works.scss */
 .cardContainer .box:nth-child(8) .icon {
   background-image: url(../img/react.svg);
   background-position: top;
