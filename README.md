@@ -40,6 +40,7 @@ Hi, I am studying for UX design and Web development at YOOBEE design collage in 
 
 ### Work Experience
 ---
+**NZ Racing Board TAB** - UX designer  | *2020 ~ present*
 **Wedding Studio in Auckland** - Photo editor and Web design assistant  | *2013 ~ 2015*
 **Korean Airline in South Korea** - Reservation and Ticketing  | *2010 ~ 2011*
 **Opal Auctions in Gold Coast** - online retail shop Photo editor and Web design assistant  | *2009 ~ 2010*
