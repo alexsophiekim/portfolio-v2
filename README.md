@@ -1,5 +1,5 @@
 # Sophie Kim
-> I am a "Web developer & UX designer"
+> I am a "UX/UI designer & Web developer"
 
 ### Contact
 ---
@@ -10,11 +10,11 @@
 
 ### About
 ---
-Hi, I recently worked as a UX/UI designer at TAB, NZ racing board. I learnt about UX design and Web development at YOOBEE design college last year. I used to work as a Wedding Photo editor and web designer in Auckland. I am passionate about building and creating a web application that is user centric design. Currently I am looking for a Front-end developer or UI/UX design position.
+Hi, I am a UX/UI designer based in Wellington, NZ. I am passionate about building and creating a web application that is user centric design. I am good at up-to-date UX design tools such as Sketch, Figma, UXpin, invision and so on. Also I love team collaboration work. Currently I am looking for a entry level Front-end developer or a UX/UI design position.
 
 ### Work Experience
 ---
-- **NZ Racing Board TAB** - UX designer  | *2020 ~ present*
+- **NZ Racing Board TAB** - UX designer  | *2020 ~ 2020*
 - **Wedding Studio in Auckland** - Photo editor and Web design assistant  | *2013 ~ 2015*
 - **Korean Airline in South Korea** - Reservation and Ticketing  | *2010 ~ 2011*
 - **Opal Auctions in Gold Coast** - online retail shop Photo editor and Web design assistant  | *2009 ~ 2010*
