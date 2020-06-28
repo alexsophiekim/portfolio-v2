@@ -10,7 +10,7 @@
 
 ### About
 ---
-Hi, I am a UX/UI designer based in Wellington, NZ. I am passionate about building and creating a web application that is user centric design. I am good at up-to-date UX design tools such as Sketch, Figma, UXpin, invision and so on. Also I love team collaboration work. Currently I am looking for a entry level Front-end developer or a UX/UI design position.
+Hi, I am a UX/UI designer based in Wellington, NZ. I am passionate about building and creating a web application that is user centric design. I am good at up-to-date UX design tools such as Sketch, Figma, UXpin, invision and so on. Also I love team collaboration work. Currently I am looking for new opportunity as a UX/UI design position.
 
 ### Work Experience
 ---
