@@ -1,5 +1,5 @@
 # Sophie Kim
-> I am a "UX/UI designer & Web developer"
+> I am a "UX/UI designer, Digital designer & UX Engineer"
 
 ### Contact
 ---
@@ -14,6 +14,7 @@ Hi, I am a UX/UI designer based in Wellington, NZ. I am passionate about buildin
 
 ### Work Experience
 ---
+- **MOBIHQ** - Digital Designer  | *2020 ~ 2023*
 - **NZ Racing Board TAB** - UX designer  | *2020 ~ 2020*
 - **Wedding Studio in Auckland** - Photo editor and Web design assistant  | *2013 ~ 2015*
 - **Korean Airline in South Korea** - Reservation and Ticketing  | *2010 ~ 2011*
@@ -25,7 +26,7 @@ Hi, I am a UX/UI designer based in Wellington, NZ. I am passionate about buildin
 * Prototype
 * Usability Test
 * UX design
-* HTML / CSS / SASS
+* HTML / CSS / SASS / LESS
 * JavaScript / jQuery
 * Bootstrap
 * Git / Github
@@ -33,7 +34,7 @@ Hi, I am a UX/UI designer based in Wellington, NZ. I am passionate about buildin
 * APIs
 * NPM
 * Ajax / Json
-* PHP
+* React Native
 * React.js
 * CMS / Wordpress
 
