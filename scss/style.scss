@@ -206,9 +206,10 @@ header{
   align-items: center;
   padding-top:7%;
    h1{
+      font-size: 22px;
       margin: 5% auto;
       max-width: 1000px;
-      line-height: 3rem;
+      line-height: 1.8em;
       font-weight: 100;
       // animation: 2s ease-in 1 letter;
       @include respond-to(sm){
