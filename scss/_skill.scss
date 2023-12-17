@@ -65,6 +65,11 @@
   40%{ color:rgba(255,255,255,1)}
   100%{ width:85%; color:rgba(255,255,255,1)}
 }
+@keyframes line90{
+  0%{ width:0; color:rgba(255,255,255,0)}
+  40%{ color:rgba(255,255,255,1)}
+  100%{ width:90%; color:rgba(255,255,255,1)}
+}
 
 .animateLine{
   animation: line70 3S 1;
