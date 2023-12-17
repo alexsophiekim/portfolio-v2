@@ -77,11 +77,11 @@ body {
 /* line 62, ../scss/_base.scss */
 section {
   position: relative;
-  overflow: scroll;
+  /* overflow: scroll; */
   scroll-behavior: smooth;
   scroll-snap-align: start;
   width: 100%;
-  height: 100vh; }
+  height: 100%; }
 
 /* line 1, ../scss/_skill.scss */
 .skillsTitle {
@@ -189,17 +189,14 @@ section {
   margin: 50px auto;
   margin-top: 70px; }
   @media (max-width: 576px) {
-    /* line 5, ../scss/_works.scss */
-    .cardContainer {
-      margin: 0;
-      transform: translateX(15%); } }
+    }
   /* line 15, ../scss/_works.scss */
   .cardContainer .box {
     position: relative;
     width: calc(300px - 30px);
     height: calc(300px - 30px);
     background: #000;
-    float: left;
+    /* float: left; */
     margin: 15px;
     box-sizing: border-box;
     border-radius: 20px;
@@ -381,6 +378,7 @@ section {
 /* line 14, ../scss/style.scss */
 header {
   position: fixed;
+  top:0;
   z-index: 99;
   display: flex;
   justify-content: space-between;

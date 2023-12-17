@@ -135,7 +135,7 @@ header{
 }
 #skills, #works, #contact{
   display: flex;
-  // height: 700px;
+  height: 100% !important;
 }
  #about, #skills, #works, #contact {
   position: relative;
