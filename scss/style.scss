@@ -20,6 +20,7 @@ header{
   height: 70px;
   flex-wrap: wrap;
   background-color: white;
+  top: 0;
   .mLogo{
     display: none;
     @include respond-to(sm){
@@ -100,29 +101,33 @@ header{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
   .sns{
     bottom: 5%;
-    left: 3%;
     font-size: 18px;
     position: absolute;
     z-index: 0;
-    li{
-      list-style: none;
-      display: inline;
-      margin-left: 10px;
-      a {
-        text-decoration: none;
-        color: black;
-        @include respond-to(sm) {
-          color: white;
+    width: 100%;
+    ul{
+      display: flex;
+      li{
+        list-style: none;
+        margin-right: 10px;
+        a {
+          text-decoration: none;
+          color: black;
+          @include respond-to(sm) {
+            color: white;
+          }
         }
       }
-    }
-    @include respond-to(sm){
-      left: 0;
-      transform: translate(50%,50%);
+      @include respond-to(sm){
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
     }
   }
   @include respond-to(sm) {
@@ -144,6 +149,7 @@ header{
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
+  height: 100%;
 }
 .text-part{
   width: 65%;

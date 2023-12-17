@@ -8,17 +8,13 @@ margin-bottom: 20px;
   // height: 300px;
   margin: 50px auto;
   margin-top: 70px;
-  @include respond-to(sm){
-    margin: 0;
-    transform: translateX(15%);
-  }
+ 
   .box{
     position: relative;
     width: calc(300px - 30px);
     height: calc(300px - 30px);
     background: #000;
-    float: left;
-    margin: 15px;
+    margin: 15px auto;
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden;
