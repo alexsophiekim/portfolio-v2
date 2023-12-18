@@ -135,6 +135,10 @@ section {
   animation: line85 3s 1;
 }
 
+.line90 span {
+  animation: line90 3s 1;
+}
+
 @keyframes line70 {
   0% {
     width: 0;
@@ -205,6 +209,7 @@ section {
   animation: line75 3s 1;
   animation: line80 3s 1;
   animation: line85 3s 1;
+  animation: line90 3s 1;
 }
 
 .worksTitle {
