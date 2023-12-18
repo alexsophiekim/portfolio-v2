@@ -21,6 +21,7 @@
   height: 200px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   .column{
     width: calc(300px - 30px);
     height: calc(200px - 30px);
