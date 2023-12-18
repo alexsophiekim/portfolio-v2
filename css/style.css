@@ -536,7 +536,7 @@ header .toggle {
 }
 #home .sns ul li {
   list-style: none;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 #home .sns ul li a {
   text-decoration: none;
