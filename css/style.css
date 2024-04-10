@@ -312,7 +312,7 @@ section {
 .cardContainer .box:nth-child(2) .icon {
   background-image: url(../img/mtruapehu.png);
   background-position: top;
-  background-size: cover
+  background-size: cover;
 }
 
 .cardContainer .box:nth-child(3) .icon {
@@ -652,7 +652,6 @@ header .toggle {
 
 .aboutBox {
   align-items: center;
-  padding-top: 7%;
 }
 .aboutBox h1 {
   font-size: 22px;
