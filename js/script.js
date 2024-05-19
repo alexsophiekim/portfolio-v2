@@ -15,18 +15,18 @@ $(document).ready(function(){
       $('.ti-close').hide();
   });
 
-  $(window).scroll(function() {
-			$('.animation').each(function(){
-			var offSet = $(this).offset().top;
-			var topOfWindow = $(window).scrollTop();
-				if (offSet > topOfWindow +100) {
-					$(this).addClass("animated fadeInUp");
-				}
-			var topOfWindow = $(window).scrollTop();
-				if (topOfWindow < offSet -900) {
-					$(this).removeClass("animated fadeInUp");
-				}
-			})
-  });
+  // $(window).scroll(function() {
+	// 		$('.animation').each(function(){
+	// 		var offSet = $(this).offset().top;
+	// 		var topOfWindow = $(window).scrollTop();
+	// 			if (offSet > topOfWindow +100) {
+	// 				$(this).addClass("animated fadeInUp");
+	// 			}
+	// 		var topOfWindow = $(window).scrollTop();
+	// 			if (topOfWindow < offSet -900) {
+	// 				$(this).removeClass("animated fadeInUp");
+	// 			}
+	// 		})
+  // });
 
 });

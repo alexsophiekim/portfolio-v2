@@ -227,12 +227,13 @@ header{
   align-items: center;
   // padding-top:7%;
    h1{
-      font-size: 22px;
+      font-size: 20px;
       margin: 5% auto;
       max-width: 1000px;
       line-height: 1.8em;
       font-weight: 100;
-      // animation: 2s ease-in 1 letter;
+      padding: 0 5% !important;
+      animation: letter 1s ease-in;
       @include respond-to(sm){
         font-size: 1rem;
         line-height: 2rem;
@@ -241,10 +242,14 @@ header{
       }
   }
 }
-// @keyframes letter{
-//   0%{ letter-spacing: 2rem}
-//   100%{ letter-spacing: 5px}
-// }
+@keyframes letter{
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 footer{
   border-top: solid 1px black;

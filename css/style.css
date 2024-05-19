@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -724,11 +725,13 @@ header .toggle {
   align-items: center;
 }
 .aboutBox h1 {
-  font-size: 22px;
+  font-size: 20px;
   margin: 5% auto;
   max-width: 1000px;
   line-height: 1.8em;
   font-weight: 100;
+  padding: 0 5% !important;
+  animation: letter 1s ease-in;
 }
 @media (max-width: 576px) {
   .aboutBox h1 {
@@ -739,6 +742,14 @@ header .toggle {
   }
 }
 
+@keyframes letter {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 footer {
   border-top: solid 1px black;
   background-color: black;
