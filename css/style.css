@@ -639,8 +639,12 @@ header .toggle {
 }
 @media (max-width: 576px) {
   #home {
-    background-image: none;
-    background-color: #1d2021;
+    background-image: url(../img/mbbg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
   }
 }
 
