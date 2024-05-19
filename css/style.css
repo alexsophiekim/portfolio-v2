@@ -599,7 +599,7 @@ header .toggle {
 }
 
 #home {
-  background-image: url(../img/uxbg.jpg);
+  background-image: url(../img/Sophiebg.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -623,7 +623,7 @@ header .toggle {
 }
 #home .sns ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 @media (max-width: 576px) {
   #home .sns ul li a {
@@ -700,6 +700,7 @@ header .toggle {
 }
 
 .intro {
+  visibility: hidden;
   text-align: center;
   position: relative;
   top: 30%;
@@ -716,6 +717,7 @@ header .toggle {
 @media (max-width: 576px) {
   .intro {
     color: white;
+    visibility: visible;
   }
 }
 

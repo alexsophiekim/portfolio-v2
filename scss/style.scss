@@ -97,7 +97,7 @@ header{
 }
 
 #home{
-  background-image: url(../img/uxbg.jpg);
+  background-image: url(../img/Sophiebg.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +117,7 @@ header{
         margin-left: 10px;
         a {
           text-decoration: none;
-          color: black;
+          color: white;
           @include respond-to(sm) {
             color: white;
           }
@@ -185,6 +185,7 @@ header{
   line-height: 1em;
 }
 .intro{
+  visibility: hidden;
   text-align: center;
   // font-family: 'Share', cursive;
   position: relative;
@@ -200,6 +201,7 @@ header{
   }
   @include respond-to(sm){
     color: white;
+    visibility: visible;
   }
 }
 
