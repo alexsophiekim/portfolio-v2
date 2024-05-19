@@ -131,7 +131,7 @@ header{
     }
   }
   @include respond-to(sm) {
-    background-image: url(../img/mbbg.gif);
+    background-image: url(../img/sophiembbg.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,26 +189,26 @@ header{
   display: inline-block;
   line-height: 1em;
 }
-.intro{
-  visibility: hidden;
-  text-align: center;
-  // font-family: 'Share', cursive;
-  position: relative;
-  top:30%;
-  p{
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 30px;
-  }
-  span{
-    font-weight: bold;
-    font-size: 40px;
-  }
-  @include respond-to(sm){
-    color: white;
-    visibility: visible;
-  }
-}
+// .intro{
+//   visibility: hidden;
+//   text-align: center;
+//   // font-family: 'Share', cursive;
+//   position: relative;
+//   top:30%;
+//   p{
+//     font-size: 20px;
+//     font-weight: normal;
+//     line-height: 30px;
+//   }
+//   span{
+//     font-weight: bold;
+//     font-size: 40px;
+//   }
+//   @include respond-to(sm){
+//     color: white;
+//     visibility: visible;
+//   }
+// }
 
 .skillSet{
   width: 70%;

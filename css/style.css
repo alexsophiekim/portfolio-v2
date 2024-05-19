@@ -639,7 +639,7 @@ header .toggle {
 }
 @media (max-width: 576px) {
   #home {
-    background-image: url(../img/mbbg.gif);
+    background-image: url(../img/sophiembbg.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -701,28 +701,6 @@ header .toggle {
 .ml16 .letter {
   display: inline-block;
   line-height: 1em;
-}
-
-.intro {
-  visibility: hidden;
-  text-align: center;
-  position: relative;
-  top: 30%;
-}
-.intro p {
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 30px;
-}
-.intro span {
-  font-weight: bold;
-  font-size: 40px;
-}
-@media (max-width: 576px) {
-  .intro {
-    color: white;
-    visibility: visible;
-  }
 }
 
 .skillSet {
