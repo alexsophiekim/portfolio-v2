@@ -586,13 +586,13 @@ header .toggle {
     font-size: 30px;
     z-index: 1;
     display: block;
-    background-color: #1d2021;
+    background-color: black;
   }
 }
 @media (max-width: 576px) {
   header {
     width: 100vw;
-    background: #1d2021;
+    background: black;
     box-sizing: border-box;
     z-index: 2;
   }

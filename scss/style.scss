@@ -84,13 +84,13 @@ header{
       font-size: 30px;
       z-index: 1;
       display: block;
-      background-color: $gray;
+      background-color: black;
 
     }
   }
   @include respond-to(sm) {
     width: 100vw;
-    background: $gray;
+    background: black;
     box-sizing: border-box;
     z-index: 2;
   }
