@@ -547,7 +547,7 @@ header .nav ul {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: #1d2021;
+    background-color: black;
     display: none;
   }
 }
@@ -600,7 +600,7 @@ header .toggle {
 }
 
 #home {
-  background-image: url(../img/Sophiebg.gif);
+  background-image: url(../img/uxbg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -640,12 +640,13 @@ header .toggle {
 }
 @media (max-width: 576px) {
   #home {
-    background-image: url(../img/sophiembbg.gif);
+    background-image: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    background-color: black;
   }
 }
 
@@ -702,6 +703,27 @@ header .toggle {
 .ml16 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+.intro {
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+.intro p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.intro span {
+  font-weight: bold;
+  font-size: 40px;
+}
+@media (max-width: 576px) {
+  .intro {
+    color: white;
+    visibility: visible;
+  }
 }
 
 .skillSet {

@@ -49,7 +49,7 @@ header{
         flex-direction: column;
         height: 100vh;
         width: 100vw;
-        background-color: $gray;
+        background-color: black;
         display: none;
       }
     }
@@ -97,7 +97,7 @@ header{
 }
 
 #home{
-  background-image: url(../img/Sophiebg.gif);
+  background-image: url(../img/uxbg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,13 +131,14 @@ header{
     }
   }
   @include respond-to(sm) {
-    background-image: url(../img/sophiembbg.gif);
+    // background-image: url(../img/sophiembbg.gif);
+    background-image: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    // background-color:$gray;
+    background-color:black;
   }
 }
 #works{
@@ -189,26 +190,26 @@ header{
   display: inline-block;
   line-height: 1em;
 }
-// .intro{
-//   visibility: hidden;
-//   text-align: center;
-//   // font-family: 'Share', cursive;
-//   position: relative;
-//   top:30%;
-//   p{
-//     font-size: 20px;
-//     font-weight: normal;
-//     line-height: 30px;
-//   }
-//   span{
-//     font-weight: bold;
-//     font-size: 40px;
-//   }
-//   @include respond-to(sm){
-//     color: white;
-//     visibility: visible;
-//   }
-// }
+.intro{
+  // visibility: hidden;
+  text-align: center;
+  // font-family: 'Share', cursive;
+  position: relative;
+  top:30%;
+  p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+  }
+  span{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  @include respond-to(sm){
+    color: white;
+    visibility: visible;
+  }
+}
 
 .skillSet{
   width: 70%;
